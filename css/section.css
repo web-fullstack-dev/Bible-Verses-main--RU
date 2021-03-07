@@ -21,11 +21,11 @@
 }
 
 .section__h1--orange {
-  background-color: hsl(39, 100%, 40%);
+  background-color: hsl(39, 100%, 50%);
 }
 
 .section__h1--orange:active {
-  background-color: hsl(39, 100%, 50%);
+  background-color: hsl(39, 100%, 60%);
   transform: scale(1.1);
 }
 
