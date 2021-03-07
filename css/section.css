@@ -11,12 +11,12 @@
   transition: 0.3s;
 }
 
-.section__h1--teal {
-  background-color: hsl(180, 100%, 25%);
+.section__h1--silver {
+  background-color: hsl(0, 0%, 75%);
 }
 
-.section__h1--teal:active {
-  background-color: hsl(180, 100%, 35%);
+.section__h1--silver:active {
+  background-color: hsl(0, 0%, 85%);
   transform: scale(1.1);
 }
 
