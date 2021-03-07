@@ -29,6 +29,15 @@
   transform: scale(1.1);
 }
 
+.section__h1--purple {
+  background-color: hsl(300, 100%, 30%);
+}
+
+.section__h1--purple:active {
+  background-color: hsl(300, 100%, 40%);
+  transform: scale(1.1);
+}
+
 .section__h1--orange {
   background-color: hsl(39, 100%, 50%);
 }
@@ -38,14 +47,6 @@
   transform: scale(1.1);
 }
 
-.section__h1--purple {
-  background-color: hsl(300, 100%, 30%);
-}
-
-.section__h1--purple:active {
-  background-color: hsl(300, 100%, 40%);
-  transform: scale(1.1);
-}
 
 .section__h1--link {
   text-decoration: none;
