@@ -20,6 +20,15 @@
   transform: scale(1.1);
 }
 
+.section__h1--orange {
+  background-color: hsl(39, 100%, 40%);
+}
+
+.section__h1--orange:active {
+  background-color: hsl(39, 100%, 50%);
+  transform: scale(1.1);
+}
+
 .section__h1--link {
   text-decoration: none;
   cursor: context-menu; 
