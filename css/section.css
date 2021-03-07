@@ -11,6 +11,15 @@
   transition: 0.3s;
 }
 
+.section__h1--lightseagreen {
+  background-color: hsl(177, 70%, 41%);
+}
+
+.section__h1--lightseagreen:active {
+  background-color: hsl(177, 70%, 41%);
+  transform: scale(1.1);
+}
+
 .section__h1--blue {
   background-color: hsl(240, 100%, 60%);
 }
