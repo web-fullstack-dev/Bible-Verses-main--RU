@@ -2,32 +2,49 @@
   padding: 15px;
 }
 
-.span__icon {
-  font-size: 26px;
-}
-
 .section__h1 {
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-size: 26px;
   padding: 25px;
   cursor: context-menu; 
+  transition: 0.3s;
 }
 
 .section__h1--teal {
   background-color: hsl(180, 100%, 25%);
 }
 
+.section__h1--teal:active {
+  background-color: hsl(180, 100%, 35%);
+  transform: scale(1.1);
+}
+
 .section__h1--blue {
-  background-color: rgb(0, 119, 212);
+  background-color: hsl(240, 100%, 60%);
+}
+
+.section__h1--blue:active {
+  background-color: hsl(240, 100%, 70%);
+  transform: scale(1.1);
 }
 
 .section__h1--orange {
   background-color: hsl(39, 100%, 50%);
 }
 
+.section__h1--orange:active {
+  background-color: hsl(39, 100%, 60%);
+  transform: scale(1.1);
+}
+
 .section__h1--purple {
   background-color: hsl(300, 100%, 30%);
+}
+
+.section__h1--purple:active {
+  background-color: hsl(300, 100%, 40%);
+  transform: scale(1.1);
 }
 
 .section__h1--link {
