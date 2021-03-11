@@ -47,6 +47,24 @@
   transform: scale(1.1);
 }
 
+.section__h1--red {
+  background-color: hsl(0, 100%, 47%);
+}
+
+.section__h1--red:active {
+  background-color: hsl(0, 100%, 57%);
+  transform: scale(1.1);
+}
+
+.section__h1--limegreen {
+  background-color: hsl(120, 61%, 50%);
+}
+
+.section__h1--limegreen:active {
+  background-color: hsl(120, 61%, 60%);
+  transform: scale(1.1);
+}
+
 .section__h1--link {
   text-decoration: none;
   cursor: context-menu; 
